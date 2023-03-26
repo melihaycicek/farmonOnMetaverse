@@ -18,7 +18,10 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
+<<<<<<< HEAD
 import org.springframework.stereotype.Service;
+=======
+>>>>>>> 90b0314c6e9ade2837416d9bf4f014c9b907eebc
 import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
@@ -28,7 +31,11 @@ import java.util.Optional;
 
 @Slf4j
 @RequiredArgsConstructor
+<<<<<<< HEAD
 @Service
+=======
+@Component
+>>>>>>> 90b0314c6e9ade2837416d9bf4f014c9b907eebc
 @Configuration
 public class TokenAuthenticationFilter extends OncePerRequestFilter {
 
