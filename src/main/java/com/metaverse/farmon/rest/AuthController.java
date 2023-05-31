@@ -59,12 +59,7 @@ public class AuthController {
         return tokenProvider.generate(authentication);
     }
 
-<<<<<<< HEAD
 
-
-
-=======
->>>>>>> 90b0314c6e9ade2837416d9bf4f014c9b907eebc
     private User mapSignUpRequestToUser(SignUpRequest signUpRequest) {
         User user = new User();
         user.setUsername(signUpRequest.getUsername());
